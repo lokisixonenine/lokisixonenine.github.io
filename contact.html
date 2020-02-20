@@ -3,7 +3,7 @@
 
 <head>
   <link rel="stylesheet" href="assets/css/reset.css">
-  <link href="https://fonts.googleapis.com/css?family=Sarala:700&display=swap" rel="stylesheet">  
+  <link href="https://fonts.googleapis.com/css?family=Sarala:700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Hammersmith+One&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,14 +22,13 @@
   <link rel="stylesheet" href="assets/css/style.css">
 
   <title>Jaycee Bagtas Developer Portfolio</title>
-    
-<div class="jumbotron jumbotron-fluid jumboHeaderImg">
-  <div class="container">
-    <h1 class="display-3">Jaycee Bagtas</h1>
-    <h3 id="h3Outline">SOFTWARE DEVELOPER</h3>
-  </div>
-</div>
 
+<div class="jumbotron jumbotron-fluid jumboHeaderImg">
+  <class="container", class="darkContainer">
+    <h1 class="display-3"> Jaycee Bagtas</h1>
+    <h3 id="h3Outline"> SOFTWARE DEVELOPER</h3>
+
+</div>
 </head>
 
 <body>
@@ -45,7 +44,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="index.html">About/Resumé<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="portfolio.html">Portfolio</a>
@@ -53,6 +52,9 @@
         <li class="nav-item">
           <a class="nav-link" href="contact.html">Contact</a>
         </li>
+      </ul>
+      </li>
+      <button onclick="myFunction()">'dark-ISH' mode</button>
       </ul>
     </div>
   </nav>
@@ -65,43 +67,42 @@
     <hr class="hr.new1">
     </hr>
 
-<div class="container"> 
-    <div class="row">
-      <div class="col-75">
-        <label for="name">Name</label>
-      </div>
-      <div class="col-75">
-        <input type="text" id="name" name="firstname" placeholder="Rick or Morty">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-75">
-        <label for="email">Email</label>
-      </div>
-      <div class="col-75">
-        <input type="text" id="name" name="firstname" placeholder="name@email.com">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-75">
-        <label for="message">Message</label>
-      </div>
-      <div class="col-75">
-        <textarea id="message" name="message" placeholder="What you want?!?!?" style="height:200px"></textarea>
-      </div>
-    </div><br>
-    <div class="row">
-      <input type="submit" id="submit" value="Submit">
-      </div>
-  </form>
-</div>
+    <div class="container">
+      <div class="row">
+        <div class="col-25">
+          <h2>Phone:</h2>
+          <p>619.717.6012</p>
+        </div>
 
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <h2>Email:</h2> <a href="mailto:jaycee.bagtas@gmail.com">jaycee@lokisixonenine.com</a>
+          <br />
+          <br />
+          <br />
+        </div>
+        <div class="col-75">
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5e3f08f5992517b9"></script>
   <footer>
-    <h6>Copyright &#169; Jaycee Bagtas 2019</h6>
+    <h6>Copyright &#169; Jaycee Bagtas 2020</h6>
     </div>
     </div>
   </footer>
+  <script>
+    function myFunction() {
+      var element = document.body;
+      element.classList.toggle("dark-mode");
 
+    }
+  </script>
 </body>
 
 </html>

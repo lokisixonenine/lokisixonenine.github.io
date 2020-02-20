@@ -1,7 +1,3 @@
-h2 {
-  color: orange;
-  text-shadow: 2px 2px lightgray;
-}
 
 h1 {
   font-family: 'Sarala', sans-serif;
@@ -12,7 +8,14 @@ h1 {
   position: relative;
 }
 
+h2 {
+  color: orange;
+  text-shadow: 2px 2px lightgray;
+}
+
 body {
+  padding: 5px;
+  color: black;
   background-image: url(/assets/images/seigaiha.jpg);
 }
 
@@ -53,15 +56,6 @@ body {
   color: black;
 }
 
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: white;
-  padding: 10px;
-  width: 100%;
-}
 
 .navbar {
   font-family: 'Anton', sans-serif;
@@ -76,58 +70,12 @@ footer {
   text-align: center;
 }
 
-#submit {
-  background-color: silver;
-  text-shadow: -1px -1px 0 #fff,
-    1px -1px 0 #fff,
-    -1px 1px 0 #fff,
-    1px 1px 0 #fff;
-  position: relative;
-}
-
-[class*="col-"] {
-  width: 100%;
-}
-
 .col-75 {
   float: left;
   width: 75%;
   margin-top: 6px;
 }
 
-
-input[type=text],
-select,
-textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  resize: vertical;
-}
-
-label {
-  padding: 12px 12px 12px 0;
-  display: inline-block;
-}
-
-input[type=submit] {
-  background-color: white;
-  color: black;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  float: right;
-}
-
-input[type=submit]:hover {
-  background-color: white;
-}
-
-.container {
-  padding: 15px;
-}
 
 .col-25 {
   float: left;
@@ -144,6 +92,43 @@ input[type=submit]:hover {
 .jumboHeaderImg {
   background-image: url(/assets/images/developer2.jpg);
   background-size: cover;
+}
+
+.btn-primary {
+  background-color: black;
+}
+
+.btn-primary:hover {
+  background-color: gray;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+  0 12px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dark-mode {
+  background-image: url(/assets/images/seigaiha-inverted.png);
+  background-color: black;
+}
+
+.dark-mode div {
+  color: silver;
+  background-color: rgba(85, 85, 85, 85);
+}
+
+
+.dark-mode h1 {
+  color: black;
+}
+
+.dark-mode h3 {
+  color: black;
+}
+
+.dark-mode .navbar {
+  background-color: rgba(85, 85, 85, 85);
+}
+
+button {
+  font-size: 12px;
 }
 
 @media screen and (max-width: 600px) {
